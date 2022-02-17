@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<header>
+<body>
     <header>
         <nav class="navbar navbar-inverse navbar-expand-lg navbar-light bg-light" id="top_nav">
             <div class="container-fluid">
@@ -19,14 +19,14 @@
                         <span class="navbar-toggler-icon justify-content-right"></span>
                     </button>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="collapse navbar-collapse ms-auto" id="myNavbar">
                     <form class="navbar-form" action="#">
                         <div  class="input-group">
                             <input type="text" class="form-control" placeholder="Search...">
                             <button type="submit" class="btn btn-default btn-outline-danger">Search</button>
                         </div>
                     </form>
-                    <ul class="nav navbar-nav px-3 ms-auto">
+                    <ul class="nav navbar-nav px-3">
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle text-dark" role="button" data-bs-toggle="dropdown">
                                 staffs <span class="caret"></span>
@@ -78,7 +78,7 @@
             <div class="carousel-inner">
             <!-- first item -->
             <div class="carousel-item active">
-                <img src="images/ai.jpg" alt="artificial intelligence" class="d-block img-responsive" style="width:100%">
+                <img src="images/ai.jpg" alt="artificial intelligence" class="d-block img-fluid" style="width:100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Welcome to<br>Electrical and Electronics Engineering</h3>
                     <p>We step up-we transform</p>
@@ -86,7 +86,7 @@
             </div>
             <!-- second item -->
             <div class="carousel-item">
-                <img src="images/electronics2.jpg" alt="electronics engineering" class="d-block img-responsive" style="width:100%">
+                <img src="images/electronics2.jpg" alt="electronics engineering" class="d-block img-fluid" style="width:100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Welcome to<br>Electrical and Electronics Engineering</h3>
                     <p>We step up we transform</p>
@@ -94,7 +94,7 @@
             </div>
             <!-- third item -->
             <div class="carousel-item">
-                <img src="images/mobile_robot1.jpg" alt="mobile robot" class="d-block img-responsive" style="width:100%">
+                <img src="images/mobile_robot1.jpg" alt="mobile robot" class="d-block img-fluid" style="width:100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Welcome to<br>Electrical and Electronics Engineering</h3>
                     <p>We step up we transform</p>
@@ -123,16 +123,16 @@
                 <button class="btn btn-md btn-outline-danger">view courses</button>
             </div>
             <div class="col-lg-5">
-                <img class="img-thumbnail img-responsive border-dark" src="images/practical.jpg" alt="image">
+                <img class="img-thumbnail img-fluid border-dark" src="images/practical.jpg" alt="image">
             </div>
             <hr class="my-5 bg-danger">
         </div>
         <div class="container-fluid row mt-4">
             <div class="col-lg-5">
-                <img class="img-thumbnail img-responsive border-dark" src="images/mobile_robot1.jpg" alt="image">
+                <img class="img-thumbnail img-fluid border-dark" src="images/mobile_robot1.jpg" alt="image">
             </div>
             <div class="col-lg-7 text-center">
-                <h3 class="text-danger">Postgraduate studies</h3>
+                <h3 class="text-dange px-3">Postgraduate studies</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nunc nisi, euismod eget consectetur et, volutpat a purus.
                      Vivamus tincidunt neque non auctor fringilla. Curabitur non venenatis risus.
                       Sed at eros lectus. In imperdiet erat enim, et scelerisque mauris varius quis.
