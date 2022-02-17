@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-inverse navbar-expand-lg navbar-light bg-light" id="top_nav">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id="top_nav">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a href="#" class="navbar-brand text-muted border border-2 border-dark my-2 p-2 rounded-pill" id="department"><strong>EEE</strong></a>
