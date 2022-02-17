@@ -1,21 +1,12 @@
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "my_db";
-$conn = new mysqli($servername, $username, 
-                $password, $dbname);
 
-// Checking for connections
-if ($conn->connect_error) {
-    die('Connect Error (' . $conn->connect_errno . ') '. $conn->connect_error);
-}
+    include "dbconnect.php";
 
-// SQL query to select data from database
-$sql = "SELECT * FROM upload WHERE years='2020' ORDER BY id ASC";
-$result = $conn->query($sql);
-$conn->close(); 
+    // SQL query to select data from database
+    $sql = "SELECT * FROM upload WHERE years='2020' ORDER BY id ASC";
+    $result = $conn->query($sql);
+    $conn->close(); 
 ?>
 
 <!DOCTYPE html>
