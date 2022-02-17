@@ -1,9 +1,9 @@
 <?php       
         if(isset($_POST["upload"])){
             $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $dbname = "my_db";
+            $username = "u335940528_eee_mau_web";
+            $password = "eeeAdmin1";
+            $dbname = "u335940528_eee_mau_db";
 
             // Create connection
             $conn = new mysqli($servername, $username, $password, $dbname);
