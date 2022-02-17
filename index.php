@@ -13,7 +13,9 @@
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id="top_nav">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a href="#" class="navbar-brand text-muted border border-2 border-dark my-2 p-2 rounded-pill" id="department"><strong>EEE</strong></a>
+                    <a href="#" class="navbar-brand text-muted border border-2 border-dark my-2 p-2 rounded-pill" id="department">
+                        <strong>EEE</strong>
+                    </a>
                     <span class="text-muted navbar-brand" id="department">Department of Electrical and Electronics Engineering</span>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
                         <span class="navbar-toggler-icon justify-content-right"></span>
@@ -63,6 +65,7 @@
         </div>
         </nav>
     </header>
+
     <section>
         <!-- Carousel -->
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
