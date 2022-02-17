@@ -29,32 +29,33 @@
                     <ul class="nav navbar-nav px-3">
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle text-dark" role="button" data-bs-toggle="dropdown">
-                                staffs <span class="caret"></span>
+                                Staffs <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu my-2">
-                                <li><a class="dropdown-item" href="#">one</a></li>
-                                <li><a class="dropdown-item" href="#">one</a></li>
-                                <li><a class="dropdown-item" href="#">one</a></li>
+                                <li><a href="#" class="dropdown-item text-muted">1</a></li>
+                                <li><a href="#" class="dropdown-item text-muted">1</a></li>
+                                <li><a href="#" class="dropdown-item text-muted">1</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle text-dark" role="button" data-bs-toggle="dropdown">
-                                students <span class="caret"></span>
+                                Students <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu my-2">
-                                <li><a class="dropdown-item" href="#">one</a></li>
-                                <li><a class="dropdown-item" href="#">one</a></li>
-                                <li><a class="dropdown-item" href="#">one</a></li>
+                                <li><a href="#" class="dropdown-item text-muted">1</a></li>
+                                <li><a href="#" class="dropdown-item text-muted">1</a></li>
+                                <li><a href="#" class="dropdown-item text-muted">1</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle text-dark" role="button" data-bs-toggle="dropdown">
-                                project <span class="caret"></span>
+                                Project <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu my-2">
-                                <li><a class="dropdown-item" href="#">one</a></li>
-                                <li><a class="dropdown-item" href="#">one</a></li>
-                                <li><a class="dropdown-item" href="#">one</a></li>
+                                <li><a href="2019.php" class="dropdown-item text-muted">2019 Projects</a></li>
+                                <li><a href="2020.php" class="dropdown-item text-muted">2020 Projects</a></li>
+                                <li><a href="2021.php" class="dropdown-item text-muted">2021 Projects</a></li>
+                                <li><a href="all_files.php" class="dropdown-item text-muted">All Projects</a></li>
                             </ul>
                         </li>
                     </ul>
