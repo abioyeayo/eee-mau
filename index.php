@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>navbar</title>
+    <title>EEE-MAU</title>
     <link rel="stylesheet" type="text/css" href="styles/style1.css">
     <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -20,6 +20,12 @@
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
+                    <form class="navbar-form" action="#">
+                        <div  class="input-group">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <button type="submit" class="btn btn-default btn-outline-danger">Search</button>
+                        </div>
+                    </form>
                     <ul class="nav navbar-nav px-3 ms-auto">
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle text-dark" role="button" data-bs-toggle="dropdown">
@@ -55,21 +61,6 @@
                 </div>
         </div>
         </nav>
-        <nav>
-            <!-- <hr class="my-5 bg-danger"> -->
-            <div class="container-fluid my-2 row">
-                <div class="col-md-2"></div>
-                <div class="col-md-7"></div>
-                <div class="col-md-3">
-                    <form class="navbar-form" action="#">
-                        <div  class="input-group">
-                            <input type="text" class="form-control" placeholder="Search...">
-                            <button type="submit" class="btn btn-default btn-outline-danger">Search</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </nav>
     </header>
     <section>
         <!-- Carousel -->
@@ -87,7 +78,7 @@
             <div class="carousel-inner">
             <!-- first item -->
             <div class="carousel-item active">
-                <img src="images/ai.jpg" alt="artificial intelligence" class="d-block" style="width:100%">
+                <img src="images/ai.jpg" alt="artificial intelligence" class="d-block img-responsive" style="width:100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Welcome to<br>Electrical and Electronics Engineering</h3>
                     <p>We step up-we transform</p>
@@ -95,7 +86,7 @@
             </div>
             <!-- second item -->
             <div class="carousel-item">
-                <img src="images/electronics2.jpg" alt="electronics engineering" class="d-block" style="width:100%">
+                <img src="images/electronics2.jpg" alt="electronics engineering" class="d-block img-responsive" style="width:100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Welcome to<br>Electrical and Electronics Engineering</h3>
                     <p>We step up we transform</p>
@@ -103,7 +94,7 @@
             </div>
             <!-- third item -->
             <div class="carousel-item">
-                <img src="images/mobile_robot1.jpg" alt="mobile robot" class="d-block" style="width:100%">
+                <img src="images/mobile_robot1.jpg" alt="mobile robot" class="d-block img-responsive" style="width:100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Welcome to<br>Electrical and Electronics Engineering</h3>
                     <p>We step up we transform</p>
@@ -132,13 +123,13 @@
                 <button class="btn btn-md btn-outline-danger">view courses</button>
             </div>
             <div class="col-lg-5">
-                <img class="img-thumbnail border-dark" src="images/practical.jpg" alt="image">
+                <img class="img-thumbnail img-responsive border-dark" src="images/practical.jpg" alt="image">
             </div>
             <hr class="my-5 bg-danger">
         </div>
         <div class="container-fluid row mt-4">
             <div class="col-lg-5">
-                <img class="img-thumbnail border-dark" src="images/mobile_robot1.jpg" alt="image">
+                <img class="img-thumbnail img-responsive border-dark" src="images/mobile_robot1.jpg" alt="image">
             </div>
             <div class="col-lg-7 text-center">
                 <h3 class="text-danger">Postgraduate studies</h3>
