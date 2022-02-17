@@ -132,7 +132,7 @@
                 <img class="img-thumbnail img-fluid border-dark" src="images/mobile_robot1.jpg" alt="image">
             </div>
             <div class="col-lg-7 text-center">
-                <h3 class="text-dange px-3">Postgraduate studies</h3>
+                <h3 class="text-dange py-3">Postgraduate studies</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nunc nisi, euismod eget consectetur et, volutpat a purus.
                      Vivamus tincidunt neque non auctor fringilla. Curabitur non venenatis risus.
                       Sed at eros lectus. In imperdiet erat enim, et scelerisque mauris varius quis.
