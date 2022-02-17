@@ -62,7 +62,7 @@
             </div>
         </div>
     </div>
-    <form method="post" enctype="multipart/form-data" action="dbconnect.php" class="px-3">
+    <form method="post" enctype="multipart/form-data" action="upload.php" class="px-3">
         <div class="row my-3">
             <div class="col">
                 <input type="text" placeholder="ID NUMBER" id="txt" name="id_number" class="form-control form-control-sm" aria-label="ID NUMBER" aria-describedby="basic-addon1">
