@@ -3,29 +3,29 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EEE-MAU</title>
-    <link rel="stylesheet" type="text/css" href="styles/style1.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id="top_nav">
+        <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-light" id="top_nav">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a href="#" class="navbar-brand text-muted border border-2 border-dark my-2 p-2 rounded-pill" id="department">
                         <strong>EEE</strong>
                     </a>
-                    <span class="text-muted navbar-brand" id="department">Department of Electrical and Electronics Engineering</span>
+                    <span class="text-muted navbar-brand" id="department">Department of Electrical and Electronics Engineering</span>                    
+                </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
                         <span class="navbar-toggler-icon justify-content-right"></span>
                     </button>
-                </div>
-                <div class="collapse navbar-collapse ms-auto" id="myNavbar">
+                <div class="collapse navbar-collapse" id="myNavbar" style="justify-content: flex-end;">
                     <form class="navbar-form" action="#">
-                        <div  class="input-group">
+                        <div  class="input-group my-2">
                             <input type="text" class="form-control" placeholder="Search...">
-                            <button type="submit" class="btn btn-default btn-outline-danger">Search</button>
+                            <button type="submit" class="btn btn-default btn-outline-dark">Search</button>
                         </div>
                     </form>
                     <ul class="nav navbar-nav px-3">
