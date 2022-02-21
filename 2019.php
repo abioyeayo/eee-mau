@@ -75,6 +75,13 @@
                     <th>YEAR</th>
                     <th>PREVIEW</th>
                 </tr>
+                <tr>
+                    <td>eee/20u/0767</td>
+                    <td>Engr. Dr. A.O. Abioye</td>
+                    <td>Robotics</td>
+                    <td>2019</td>
+                    <td>show</td>
+                </tr>
             </table>
         </div>
     </section>
