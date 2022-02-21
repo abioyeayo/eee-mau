@@ -80,8 +80,8 @@ $conn->close();
     </nav>
 </header>
 <section>
-<div class="container-fluid p-3">
-        <table class="table table-striped table-bordered">
+    <div class="container-fluid p-3">
+            <table class="table table-striped table-bordered">
                 <tr>
                     <th>ID NUMBER</th>
                     <th>TOPIC</th>
