@@ -89,20 +89,6 @@ $conn->close();
                     <th>YEAR</th>
                     <th>FILE</th>
                 </tr>
-                <?php
-                    while($rows=$result->fetch_assoc())
-                    {
-                ?>
-                        <tr>
-                            <td><?php echo $rows['id'];?></td>
-                            <td><?php echo $rows['topic'];?></td>
-                            <td><?php echo $rows['supervisor'];?></td>
-                            <td><?php echo $rows['years'];?></td>
-                            <td><?php echo $rows['title'];?></td>
-                        </tr>
-                <?php
-                    }
-                ?>
             </table>
         </div>
     </section>
