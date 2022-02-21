@@ -66,7 +66,17 @@
         </nav>
     </header>
     <section>
-        <div></div>
+        <div class="container-fluid">
+            <table class="table table-bordered table-stripped">
+                <tr>
+                    <th>ID NUMBER</th>
+                    <th>SUPERVISOR</th>
+                    <th>TOPIC</th>
+                    <th>YEAR</th>
+                    <th>PREVIEW</th>
+                </tr>
+            </table>
+        </div>
     </section>
 </body>
 </html>
