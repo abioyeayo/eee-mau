@@ -1,25 +1,11 @@
-<?php
-
-include "dbconnect.php";
-
-// SQL query to select data from database
-$sql = "SELECT * FROM upload WHERE years='2019' ORDER BY id ASC";
-$result = $conn->query($sql);
-$conn->close(); 
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="setscentral">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/style1.css">
+    <title>EEE-MAU</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <title>2019 project files</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -76,21 +62,11 @@ $conn->close();
                         </li>
                     </ul>
                 </div>
-            </div>
+        </div>
         </nav>
     </header>
     <section>
-        <div class="container-fluid p-3">
-            <table class="table table-striped table-bordered">
-                <tr>
-                    <th>ID NUMBER</th>
-                    <th>TOPIC</th>
-                    <th>SUPERVISOR</th>
-                    <th>YEAR</th>
-                    <th>FILE</th>
-                </tr>
-            </table>
-        </div>
+        <div></div>
     </section>
 </body>
 </html>
