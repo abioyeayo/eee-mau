@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-light" id="top_nav">
+        <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-light mb-5" id="top_nav">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a href="#" class="navbar-brand text-muted border border-2 border-dark my-2 p-2 rounded-pill" id="department">
@@ -66,7 +66,7 @@
         </nav>
     </header>
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid mt-5 pt-4">
             <table class="table table-bordered table-stripped">
                 <tr>
                     <th>ID NUMBER</th>
